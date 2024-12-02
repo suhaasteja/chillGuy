@@ -14,7 +14,7 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            go watch this video to be a chill guy
+            go watch this video to become a chill guy
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
             <a
               className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -32,6 +32,11 @@ export default function Home() {
               Learn
             </a>
             </code>
+          </li>
+          <li className="mb-2">
+            <a href="https://github.com/suhaasteja/chillGuy" target="__blank" style={{"textDecoration": "underline"}}>
+              github
+            </a>
           </li>
         </ol>
       </main>
